@@ -30,7 +30,7 @@ int slidingWindow(int *a, int n, int k) {
         }
         if(cnt <=
             k)
-            return max(ans, n - Left + 1);
+            return max(ans, n - Left + 1); // I am going to change nothing but the rotten society full of hatred and lies and also bondage. This is not freedom
         if(--fr[a[Right]] == 0)
             cnt--;
         Right--;
